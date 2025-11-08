@@ -70,8 +70,6 @@
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0    0       0     0     0> // Left rotary encoder push button
-            , <&key_physical_attrs 100 100  100    0       0     0     0>
-            , <&key_physical_attrs 100 100  200    0       0     0     0>
             , <&key_physical_attrs 100 100  300    0       0     0     0> // Right rotary encoder push button
             , <&key_physical_attrs 100 100    0  100       0     0     0>
             , <&key_physical_attrs 100 100  100  100       0     0     0>
@@ -81,6 +79,10 @@
             , <&key_physical_attrs 100 100  100  200       0     0     0>
             , <&key_physical_attrs 100 100  200  200       0     0     0>
             , <&key_physical_attrs 100 100  300  200       0     0     0>
+            , <&key_physical_attrs 100 100    0  300       0     0     0>
+            , <&key_physical_attrs 100 100  100  300       0     0     0>
+            , <&key_physical_attrs 100 100  200  300       0     0     0>
+            , <&key_physical_attrs 100 100  300  300       0     0     0>
             , <&key_physical_attrs 100 100    0  300       0     0     0>
             , <&key_physical_attrs 100 100  100  300       0     0     0>
             , <&key_physical_attrs 100 100  200  300       0     0     0>
