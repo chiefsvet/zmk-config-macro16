@@ -64,7 +64,7 @@
 / {
     physical_layout0: physical_layout0 {
         compatible = "zmk,physical-layout";
-        display-name = "Macro 3x4";
+        display-name = "Macro 4x4";
         transform = <&transform>;
         kscan = <&kscan>;
 
