@@ -1,0 +1,8 @@
+config SHIELD_MACRO16
+    def_bool $(shields_list_contains,macro16)
+
+config BOARD_ENABLE_DCDC
+    bool "Enable DCDC mode"
+    select SOC_DCDC_NRF52X
+    default y
+    depends on macro16

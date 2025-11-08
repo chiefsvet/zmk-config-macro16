@@ -1,0 +1,12 @@
+if SHIELD_MACRO16
+
+config ZMK_KEYBOARD_NAME
+    default "macro16"
+
+config BT_CTLR
+    default BT
+
+config ZMK_BLE
+    default y
+    
+endif
